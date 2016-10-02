@@ -2,6 +2,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import FlipMove from 'react-flip-move';
 import Popup from './Popup.js';
 import StarsRating from './StarsRating';
 import '../styles/Sidebar.css';
@@ -33,6 +34,7 @@ var GymsList = React.createClass({
   render: function() {
     return (
       <ul className='gym-list'>
+      <FlipMove>
       {
         this.props.state.gyms.map(function(gym) {
           return <GymRow gym={gym}
@@ -41,6 +43,7 @@ var GymsList = React.createClass({
                          popup={this.props.state.popup}/>
         }.bind(this))
       }
+      </FlipMove>
     </ul>
     );
   }

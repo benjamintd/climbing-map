@@ -17,7 +17,9 @@ module.exports = React.createClass({
   componentDidMount: function() {
     this.map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/benjamintd/citrha4lg000a2jmgtsoqdfvn'
+        style: 'mapbox://styles/benjamintd/citrha4lg000a2jmgtsoqdfvn',
+        center: [-60, 38],
+        zoom: 1.4
     });
 
     this.popup = new mapboxgl.Popup({
@@ -31,6 +33,8 @@ module.exports = React.createClass({
         this.props.onUpdate(features);
       }
     }.bind(this);
+
+    window.setTimeout(this.update, 2000); 
 
     this.map.on('load', function() {
       this.map.addSource('gyms', {
