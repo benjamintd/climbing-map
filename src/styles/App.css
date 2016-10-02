@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.map {
+  position:absolute;
+  left:30%;
+  width:70%;
+  top:0;
+  bottom:0;
+  z-index: -1;
+}
+
+.sidebar {
+  width:30%;
+  position:absolute;
+  -webkit-box-shadow: 10px 0 20px -10px rgba(136, 136, 136, 0.74);
+         box-shadow: 10px 0 20px -10px rgba(136, 136, 136, 0.74);
+  top:0;
+  bottom:0;
+  background-color: #fffdfb;
+  overflow: hidden;
+}
+
+.mapboxgl-popup {
+  font-family: 'Cairo', Helvetica, Arial, Sans-serif;
+  font-size: 18px;
+}

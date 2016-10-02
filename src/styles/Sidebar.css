@@ -1,0 +1,36 @@
+.sidebar-title {
+  min-height: 60px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.gym {
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #e4e1e1;
+  background-color: #ffffff;
+}
+
+.gym:hover {
+  background-color: #f7eee2;
+}
+
+.gym img {
+  max-width: 100%;
+  padding: 10px 0 10px 0;
+}
+.gym-name, .gym-description, .sidebar-title {
+  margin: 0;
+}
+
+.gym-list {
+  list-style-type: none;
+  padding: 0 10px 60px 10px;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+}
