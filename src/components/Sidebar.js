@@ -1,6 +1,9 @@
 /* global mapboxgl */
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Popup from './Popup.js';
+import StarsRating from './StarsRating';
 import '../styles/Sidebar.css';
 
 module.exports = React.createClass({
@@ -49,6 +52,7 @@ var GymRow = React.createClass({
       <li onMouseOver={this.createPopup}>
         <div className='gym'>
           <h4 className='gym-name'>{this.props.gym.properties.name}</h4>
+          <StarsRating stars={this.props.gym.properties.stars}/>
           <img src={this.props.gym.properties.image} alt={this.props.gym.properties.name} />
           <p className='gym-description'>{this.props.gym.properties.description}</p>
         </div>
@@ -57,7 +61,9 @@ var GymRow = React.createClass({
   },
   createPopup: function() {
     this.props.popup.setLngLat(this.props.gym.geometry.coordinates)
-         .setText(this.props.gym.properties.name)
+         .setHTML('<div id="popupid"></div>')
          .addTo(this.props.map);
+    ReactDOM.render(<Popup name={this.props.gym.properties.name} stars={this.props.gym.properties.stars}/>,
+                    document.getElementById('popupid'))
   }
 });

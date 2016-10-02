@@ -34,3 +34,13 @@
   overflow: hidden;
   overflow-y: scroll;
 }
+
+.gym-name, .gym .stars-rating {
+  display: inline;
+}
+
+.gym .stars-rating {
+  padding-left: 10px;
+  font-size: 13px;
+  color: #bfbfbf;
+}

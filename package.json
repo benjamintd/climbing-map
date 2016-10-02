@@ -8,7 +8,8 @@
   "dependencies": {
     "mapbox-gl": "^0.25.1",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-fontawesome": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,8 @@
 /* global mapboxgl */
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Popup from './Popup.js';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiYmVuamFtaW50ZCIsImEiOiJjaW83enIwNjYwMnB1dmlsejN6cDBzbm93In0.0ZOGwSLp8OjW6vCaEKYFng';
 
@@ -67,10 +69,11 @@ module.exports = React.createClass({
         // Populate the popup and set its coordinates
         // based on the feature found.
         this.popup.setLngLat(feature.geometry.coordinates)
-                  .setText(feature.properties.name)
-                  .addTo(this.map);
-      }.bind(this));
-
+        .setHTML('<div id="popupid"></div>')
+        .addTo(this.map);
+        ReactDOM.render(<Popup name={feature.properties.name} stars={feature.properties.stars}/>,
+                        document.getElementById('popupid'))
+        }.bind(this));
     }.bind(this));
   }
 });

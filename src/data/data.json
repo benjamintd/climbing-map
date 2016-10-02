@@ -5,6 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dogpatch Boulders",
+        "stars": 4.5,
         "description": "Boulders only. The biggest bouldering gym on the West Coast. Big top-outs and crazy roofs.",
         "image": "https://s-media-cache-ak0.pinimg.com/736x/51/a4/4e/51a44e10c300163ca0e786cc0355e68a.jpg",
         "key": 0
@@ -21,6 +22,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mission Cliffs",
+        "stars": 5,
         "description": "Nice big walls and routes that are changed frequently. Yoga classes, to stay Californian.",
         "image": "https://c2.staticflickr.com/4/3785/11466139833_4a55cfc4c1_b.jpg",
         "key": 1
@@ -37,6 +39,7 @@
       "type": "Feature",
       "properties": {
         "name": "Great Western Power Company",
+        "stars": 3,
         "description": "Set up in an old power plant, this gym has a very friendly staff and vibe.",
         "image": "https://aptosa.org/wp-content/uploads/2015/10/o.jpg",
         "key": 2
@@ -53,6 +56,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hollywood Boulders",
+        "stars": 4,
         "description": "This place is brand new, and is home to the hippest crowd of LA.",
         "image": "http://www.walltopia.com/images/projects/hollywood/709A3300-15.jpg",
         "key": 3
@@ -69,6 +73,7 @@
       "type": "Feature",
       "properties": {
         "name": "LA Boulders",
+        "stars": 3.5,
         "description": "This industrial neighborhood was a natural place to build a climbing gym, and hipster coffee places.",
         "image": "https://cbsla.files.wordpress.com/2014/03/la-boulders.jpg",
         "key": 4
@@ -85,6 +90,7 @@
       "type": "Feature",
       "properties": {
         "name": "Westway Centre",
+        "stars": 2.5,
         "description": "Offers climbing amongst other sports, in a pretty central location of London.",
         "image": "http://img.gagdaily.com/uploads/posts/app/2013/000025c8_big.jpg",
         "key": 5
@@ -100,6 +106,7 @@
       "type": "Feature",
       "properties": {
         "name": "Der Kegel",
+        "stars": 5,
         "description": "In the mythical 99 Revaler Strasse stands the friendliest bouldering gym of Berlin, with indoor and outdoor walls.",
         "image": "http://derkegel.de/fileadmin/media/galerie/der_kegel/IMGP4913.jpg",
         "key": 6
@@ -115,6 +122,7 @@
       "type": "Feature",
       "properties": {
         "name": "Antrebloc",
+        "stars": 2,
         "description": "If nothing has changed, this location does not have the cleanest holds, but they do have beer and a patio.",
         "image": "https://worldclimb.files.wordpress.com/2011/05/dsc_0023.jpg",
         "key": 7
@@ -130,6 +138,7 @@
       "type": "Feature",
       "properties": {
         "name": "Blocbuster Courbevoie",
+        "stars": 3.5,
         "description": "Friendly staff and a strong challenge in the tunnel, a 15-meters-long bouldering overhang.",
         "image": "http://www.blocbuster.fr/wp-content/uploads/2011/12/blocbuster-escalade-paris-la-defense-2-1170x715.jpg",
         "key": 8
@@ -145,6 +154,7 @@
       "type": "Feature",
       "properties": {
         "name": "Blocbuster Cnit",
+        "stars": 4,
         "description": "The younger brother of the Blocbuster family has very nice routesetting and is the place where young business people in suits come workout with coworkers.",
         "image": "http://www.blocbuster.fr/wp-content/uploads/2015/11/12309527_1202039459811630_1541827926592529814_o-1170x780.jpg",
         "key": 9
@@ -160,6 +170,7 @@
       "type": "Feature",
       "properties": {
         "name": "MurMur Issy-Les-Moulineaux",
+        "stars": 3,
         "description": "A series of arches turned into long routes and hidden overhang gems.",
         "image": "http://www.murmur.fr/wp-content/uploads/2015/08/IMG_0569-540x392.jpg",
         "key": 10
@@ -175,6 +186,7 @@
       "type": "Feature",
       "properties": {
         "name": "MurMur Pantin",
+        "stars": 4.5,
         "description": "The mythical gym has recently opened a brand new bouldering section, which makes it even more attractive. Check out the châlet inside!",
         "image": "https://pbs.twimg.com/media/CPLAa31U8AArQ_d.jpg",
         "key": 11
@@ -190,6 +202,7 @@
       "type": "Feature",
       "properties": {
         "name": "Le Nautil",
+        "stars": 3,
         "description": "Copyrock walls and very high routes for every level, with a small but challenging bouldering section.",
         "image": "http://www.sodexarchitecture.com/NEW/Archi/Salle%20d'escalade/resources/images/large/DSC_0146.jpg",
         "key": 12
@@ -205,6 +218,7 @@
       "type": "Feature",
       "properties": {
         "name": "BlockOut",
+        "stars": 4,
         "description": "The most crowded bouldering gym of the Paris Region, were routesetters tend to have a taste for epic moves.",
         "image": "http://www.blockout.fr/images/img_5477.jpg",
         "key": 13

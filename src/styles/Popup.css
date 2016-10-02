@@ -1,0 +1,14 @@
+.popup-content {
+  color: #8b8b8b;
+}
+
+.popup-name {
+  margin:0;
+  padding:5px;
+  position:relative;
+}
+
+.popup-content .stars-rating {
+  text-align: center;
+  font-size: 14px;
+}
