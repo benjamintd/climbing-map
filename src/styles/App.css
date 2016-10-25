@@ -4,15 +4,15 @@
 
 .map {
   position:absolute;
-  left:30%;
-  width:70%;
+  left:40%;
+  width:60%;
   top:0;
   bottom:0;
   z-index: -1;
 }
 
 .sidebar {
-  width:30%;
+  width:40%;
   position:absolute;
   -webkit-box-shadow: 10px 0 20px -10px rgba(136, 136, 136, 0.74);
          box-shadow: 10px 0 20px -10px rgba(136, 136, 136, 0.74);
