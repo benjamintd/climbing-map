@@ -229,6 +229,38 @@
           2.324707, 48.910986
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "IronWorks",
+        "stars": 3.5,
+        "description": "A nice mix between boulders and ropes, with a big weight room.",
+        "image": "http://s3.amazonaws.com/directorylaunch/indoorwalls/images/116/standard.jpg?1358282619",
+        "key": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2925911,37.8508457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridges",
+        "stars": 4.5,
+        "description": "The holds are old, the air is full of chalk, but who cares! The crowd is full of happy Berkeley students and passionate climbers.",
+        "image": "https://cdn.theculturetrip.com/wp-content/uploads/2016/02/Climbing_Walls_PHOTO5.jpg",
+        "key": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.307443,37.9001424
+        ]
+      }
     }
   ]
 }
