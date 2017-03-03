@@ -13,8 +13,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.38760948181152,
-          37.75462490413041
+          -122.3876094, 37.754624
         ]
       }
     },
@@ -30,8 +29,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.41244673728941,
-          37.76121562849642
+          -122.412446, 37.7612156
         ]
       }
     },
@@ -47,8 +45,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.270401,
-          37.809898
+          -122.270401, 37.809898
         ]
       }
     },
@@ -64,8 +61,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.318146,
-          34.091300
+          -118.318146, 34.091300
         ]
       }
     },
@@ -81,8 +77,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.234442,
-          34.039030
+          -118.234442, 34.039030
         ]
       }
     },
@@ -242,7 +237,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2925911,37.8508457
+          -122.2925911, 37.8508457
         ]
       }
     },
@@ -258,7 +253,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.307443,37.9001424
+          -122.307443, 37.9001424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Earth Treks Crystal City",
+        "stars": 3.5,
+        "description": "An interesting mix of crossfitters and climbers, with challenging boulders. Shoutout to the setters of the buddy problem!",
+        "image": "https://i.ytimg.com/vi/1Pg1MOl6tKU/maxresdefault.jpg",
+        "key": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.050638, 38.861930
         ]
       }
     }
